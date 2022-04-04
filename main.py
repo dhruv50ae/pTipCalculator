@@ -1,4 +1,8 @@
-height = input("Enter your height in meters: ")
-weight = input("Enter your weight in kilograms: ")
-bmi = int(weight) / round(float(height), 2) ** 2
-print(f"Your BMI is {bmi}")
+age = input("What is your current age? ")
+age_as_int = int(age)
+years_remaining = 90 - age_as_int
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+message = f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left until you hit the 90-year milestone!"
+print(message)
