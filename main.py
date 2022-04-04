@@ -1,5 +1,4 @@
-two_digit_number = input("Type a 2 digit number: ")
-first_digit = int(two_digit_number[0])
-second_digit = int(two_digit_number[1])
-result = first_digit + second_digit
-print(result)
+height = input("Enter youy height in meters: ")
+weight = input("Enter your weight in kilograms: ")
+bmi = int(weight) / float(height) ** 2
+print("Your BMI is " + str(bmi))
